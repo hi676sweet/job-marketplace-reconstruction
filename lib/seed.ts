@@ -1,0 +1,27 @@
+import type { Job } from "./types.ts";
+export const jobs: Job[] = [
+  { id: "j-01", title: "Frontend Engineer", company: "Forma Studio", initials: "f", color: "#e6e1fc", location: "Singapore", workplace: "Remote", type: "Full-time", category: "Engineering", salaryMin: 72, salaryMax: 96, skills: ["React", "TypeScript", "Design systems"], postedDaysAgo: 1,
+    description: "Help a small, thoughtful team make creative work feel effortless. Build the interfaces designers and independent teams use to turn their ideas into something real.",
+    responsibilities: ["Build accessible, responsive interfaces in React and TypeScript.", "Work with product designers to evolve our shared component library.", "Write useful tests and improve the performance of everyday workflows."],
+    requirements: ["2+ years shipping production web applications.", "Experience with React, TypeScript, and modern CSS.", "Clear written communication and care for the details."] },
+  { id: "j-02", title: "Full Stack Developer", company: "Orbit Labs", initials: "o", color: "#dcecff", location: "Tokyo", workplace: "Remote", type: "Contract", category: "Engineering", salaryMin: 84, salaryMax: 112, skills: ["Next.js", "Node.js", "PostgreSQL"], postedDaysAgo: 2,
+    description: "Build practical tools for teams working across borders. Own well-scoped features from the first interface sketch through API implementation and release.",
+    responsibilities: ["Deliver full-stack features using Next.js and Node.js.", "Design reliable APIs and maintainable relational data models.", "Collaborate through focused reviews, tests, and clear technical notes."],
+    requirements: ["Experience delivering frontend and backend web features.", "Comfort with SQL, API validation, and automated testing.", "Ability to plan and communicate independently in a remote team."] },
+  { id: "j-03", title: "Product Designer", company: "Bloom Health", initials: "b", color: "#fbe3d8", location: "Jakarta", workplace: "Hybrid", type: "Full-time", category: "Design", salaryMin: 48, salaryMax: 68, skills: ["Figma", "UX research", "Prototyping"], postedDaysAgo: 2,
+    description: "Make everyday health services more approachable. Turn research into calm, useful experiences that people can understand with confidence.",
+    responsibilities: ["Conduct focused user research and share actionable findings.", "Create and test prototypes with patients and support teams.", "Partner with engineers to deliver clear, consistent interfaces."],
+    requirements: ["A portfolio of thoughtful product design decisions.", "Comfort facilitating interviews and usability sessions.", "Experience working closely with product and engineering teams."] },
+  { id: "j-04", title: "Backend Engineer", company: "Parcel & Co.", initials: "p", color: "#e0eede", location: "Singapore", workplace: "Remote", type: "Full-time", category: "Engineering", salaryMin: 78, salaryMax: 104, skills: ["Laravel", "MySQL", "AWS"], postedDaysAgo: 3,
+    description: "Give independent businesses a simpler way to manage deliveries. Build dependable services that connect orders, inventory, and the people moving them.",
+    responsibilities: ["Build and maintain Laravel APIs and background jobs.", "Improve database queries, reliability, and observability.", "Ship small changes with automated tests and peer review."],
+    requirements: ["Practical PHP and Laravel development experience.", "Experience with relational databases and API integration.", "A thoughtful approach to debugging and operational reliability."] },
+  { id: "j-05", title: "Product Manager", company: "Common Ground", initials: "c", color: "#f4eccb", location: "Tokyo", workplace: "Hybrid", type: "Full-time", category: "Product", salaryMin: 80, salaryMax: 108, skills: ["Discovery", "Analytics", "Strategy"], postedDaysAgo: 4,
+    description: "Help neighborhood businesses find better ways to grow. Bring focus to a product team building clear, useful tools for an often overlooked audience.",
+    responsibilities: ["Translate customer needs into prioritized product opportunities.", "Define outcomes and learn from qualitative and quantitative feedback.", "Keep design, engineering, and operations aligned around small releases."],
+    requirements: ["Experience taking software products from idea to iteration.", "Strong communication and structured problem-solving skills.", "Comfort balancing user needs, constraints, and business outcomes."] },
+  { id: "j-06", title: "React Developer", company: "Northstar", initials: "n", color: "#e2e5f8", location: "Jakarta", workplace: "Remote", type: "Contract", category: "Engineering", salaryMin: 60, salaryMax: 80, skills: ["React", "GraphQL", "Testing"], postedDaysAgo: 5,
+    description: "Help learning teams see what matters. Turn complex education data into understandable dashboards with useful, well-tested interactions.",
+    responsibilities: ["Build React dashboards backed by GraphQL APIs.", "Partner with designers to simplify complex data workflows.", "Maintain accessible components and meaningful integration tests."],
+    requirements: ["Experience building React applications and consuming APIs.", "Good JavaScript fundamentals and an interest in accessible UI.", "A collaborative approach to feedback and code review."] }
+];
