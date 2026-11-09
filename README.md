@@ -20,6 +20,8 @@ Public context: Glints' [August 2022 product announcement](https://glints.com/sg
 - Switch to a shared employer workspace, filter by role, review introductions, and progress candidates through a guarded pipeline: `Submitted → Reviewing → Interview → Offer → Hired`. Declining is allowed at each active stage; closed applications remain closed.
 - Durable SQLite storage and synthetic sample pipeline entries. No paid APIs or external application services.
 
+For a repeatable review, follow the [application walkthrough](docs/walkthrough.md), including discovery, persistent saves, hiring, withdrawal, and API failure cases.
+
 ## Screenshots
 
 Desktop and mobile views captured from the working application with synthetic demo data.
